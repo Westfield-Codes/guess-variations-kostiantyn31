@@ -32,7 +32,7 @@ alert(answer);
   // loop while guess is not equal to answer
 while ( guess != answer && guess != "q" ) {
     // set guess equal to asking user to "Guess a number, 1-100"
-prompt("Guess a number, 1-100");
+guess = prompt("Guess a number, 1-100");
     // add one to tries
 tries++;
     // if guess equals answer display "Correct in [tries] tries!" 
@@ -44,7 +44,7 @@ else if ( guess > answer ) alert("Too high!");
     // or if guess is less than answer display "Too low!" 
 else if ( guess < answer ) alert("Too low!");
     // if it's none of those, say "Bad Input!"
-else if (guess != answer) alert("Bad Input!");
+else alert("Bad Input!");
     // end the loop
 }
   // end the function
