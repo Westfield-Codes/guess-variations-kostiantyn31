@@ -23,6 +23,8 @@ function newGame(){
     // close the function
   }
   
+
+  
     
   // create a function called guessGame 
   function guessGame(){
